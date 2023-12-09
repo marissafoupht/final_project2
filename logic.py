@@ -186,7 +186,7 @@ class Logic(QMainWindow, Ui_bank_account_mainwindow):
         else:
             self.label_withdrawal_exceptions.setText(f'Withdrawal denied. Enter valid number with two decimals.')
 
-    def logout(self) -> none:
+    def logout(self) -> None:
         """
         Method opens logins_username csv and reads contents, adding them to dict.
         Method then reopens csv file and writes new balance of user.
